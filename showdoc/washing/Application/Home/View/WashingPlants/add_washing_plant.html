@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">{$title}</blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container">
+                <div class="layui-form">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">{$Think.lang._NAME_}</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="title" id="title" lay-verify="title" autocomplete="off" placeholder="{$Think.lang._NOT_WASHING_NAME_}"
+                                   class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">{$Think.lang._ADDRESS_}</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="address" id="address" lay-verify="required" placeholder="{$Think.lang._NOT_WASHING_ADDRESS_}"
+                                   autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">{$Think.lang._PERSON_}</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="username" id="username" lay-verify="required" placeholder="{$Think.lang._NOT_WASHING_CONTACT_PERSON_}"
+                                   autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">{$Think.lang._PHONE_}</label>
+                        <div class="layui-input-block">
+                            <input type="tel" name="phone" id="phone" placeholder="{$Think.lang._NOT_WASHING_CONTACT_PHONE_}" lay-verify="phone" autocomplete="off"
+                                   class="layui-input" maxlength="11">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">{$Think.lang._UPLOAD_LOGO_}</label>
+                        <div class="layui-input-block">
+                            <button type="button" class="layui-btn layui-btn-danger" id="test7"><i class="layui-icon"></i>{$Think.lang._UPLOAD_IMG_}</button>
+                            <div class="layui-inline layui-word-aux">
+                                {$Think.lang._UPLOAD_IMG_REQUIRE_}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item showLogo" style="display: none">
+                        <label class="layui-form-label">logo</label>
+                        <div class="layui-inline">
+                            <img src="" alt="">
+                            <span class="layui-icon" onclick="ifuner.remove()">&#x1007;</span>
+                        </div>
+                    </div>
+                    <div class="layui-form-item layui-input-block">
+                        <button class="layui-btn layui-btn-big" onclick="ifuner.add('index.php/Home/WashingPlants/post_washing_plant',1)">{$Think.lang._BUTTON_ADD_}</button>
+                        <button class="layui-btn layui-btn-primary layui-btn-big" onclick="ifuner.reset()">{$Think.lang._BUTTON_RESET_}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/add/uploadLogo.js"></script>
+</html>

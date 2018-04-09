@@ -1,0 +1,15 @@
+[ 2017-12-25T03:53:04+08:00 ] 39.106.244.5 /index.php/Home/StoreHouse/storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-12-25T04:38:16+08:00 ] 39.106.244.4 /index.php/Home/WashingPlants/add_washing_plant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-12-25T15:44:39+08:00 ] 106.11.225.238 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+

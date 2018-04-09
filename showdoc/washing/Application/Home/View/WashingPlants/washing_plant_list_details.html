@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a href="javascript:window.history.back(-1)" class="layui-btn layui-btn-primary">{$Think.lang._BACK_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container washing_plant">
+
+                <div class="layui-form">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">{$Think.lang._WASHING_DETAIL_ORDER_NO_}：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder=""
+                                   class="layui-input">
+                        </div>
+
+
+                        <div class="layui-inline">
+                            <label class="layui-form-label">{$Think.lang._WASHING_DETAIL_DATA_SELECT_}：</label>
+                            <div class="layui-input-inline">
+                                <input type="text" class="layui-input" id="check_data" placeholder=" - ">
+                            </div>
+                        </div>
+
+                        <div class="layui-inline">
+                            <a href="#" class="layui-btn">{$Think.lang._GO_SEARCH_}</a>
+                            <a href="#" class="layui-btn layui-btn-primary">{$Think.lang._CLEAR_SEARCH_}</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <fieldset class="layui-elem-field">
+                    <legend>{$washingDetail.WAREHOUSE_NAME}</legend>
+                    <div class="layui-field-box">
+                        <table class="layui-table" lay-skin="line">
+                            <thead>
+                            <tr>
+                                <th>{$Think.lang._WASHING_DETAIL_BUILD_DATA_}：{$washingDetail.REG_TIME}</th>
+                                <th>{$Think.lang._WASHING_DETAIL_PERSION_}：{$washingDetail.WAREHOUSE_CONTACT_PERSON}</th>
+                                <th>{$Think.lang._WASHING_DETAIL_STOCKNUMBER_}：</th>
+                                <th><a target=_top href="{:U('WashingPlants/export_washing_plant')}" class="layui-btn output-data">{$Think.lang._EXPORT_EXCEL_TABLE_}</a></th>
+                            </tr>
+                            </thead>
+                        </table>
+                        <table class="layui-table">
+                            <thead>
+                            <tr>
+                                <th>{$Think.lang._WASHING_DETAIL_ORDER_NO_}</th>
+                                <th>{$Think.lang._WASHING_DETAIL_DATA_}</th>
+                                <th>{$Think.lang._WASHING_DETAIL_NUMBER_}</th>
+                                <th>{$Think.lang._WASHING_DETAIL_STOCK_}</th>
+                                <th>{$Think.lang._WASHING_SETTING_}</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <notempty name="detailList">
+                                <foreach name="detailList" item="list">
+                                    <tr>
+                                        <td>{$list.RECEIPT_MAIN_ID}</td>
+                                        <td>{$list.CREATE_TIME}</td>
+                                        <td>{$list.LINEN_COUNT}</td>
+                                        <td>xxx（{$list.LINEN_COUNT}）</td>
+                                        <td>
+                                            <a href="javascript:;" class="layui-btn layui-btn-primary layui-btn-radius sld_see-more">{$Think.lang._VIEW_DETAIL_}</a>
+                                        </td>
+                                    </tr>
+                                </foreach>
+                                <else/>
+                                <tr>
+                                    <td colspan="5"><p class="layui-word-aux">
+                                        <span class="layui-icon"> &#xe69c;</span>
+                                        {$Think.lang._LIST_NOT_DATA_}
+                                    </p></td>
+                                </tr>
+                            </notempty>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/storehouse_list.js"></script>
+</html>

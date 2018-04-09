@@ -1,0 +1,615 @@
+[ 2018-02-12T08:54:59+08:00 ] 66.249.93.82 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-02-12T09:32:42+08:00 ] 106.11.242.127 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-02-12T15:51:18+08:00 ] 45.64.241.32 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2018-02-12T15:51:19+08:00 ] 45.64.241.32 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-02-12T15:51:28+08:00 ] 45.64.241.32 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-02-12T15:51:30+08:00 ] 45.64.241.32 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-02-12T15:51:45+08:00 ] 45.64.241.32 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-02-12T15:51:46+08:00 ] 45.64.241.32 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-02-12T15:52:10+08:00 ] 45.64.241.32 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-02-12T15:52:23+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-02-12T15:52:26+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2018-02-12T15:52:27+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-02-12T15:52:29+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-02-12T15:52:31+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-02-12T15:52:40+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-02-12T15:52:41+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-02-12T15:52:47+08:00 ] 66.102.6.206 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-02-12T15:52:48+08:00 ] 66.102.7.157 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-02-12T15:52:48+08:00 ] 66.102.7.157 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-02-12T15:54:05+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-02-12T15:54:30+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-02-12T15:54:38+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-02-12T15:54:42+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-02-12T15:55:27+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-02-12T15:55:32+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-02-12T15:56:04+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2018-02-12T15:56:10+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-02-12T15:56:48+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-02-12T15:56:54+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-02-12T16:03:00+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-02-12T16:03:02+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-02-12T16:03:04+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-02-12T16:03:21+08:00 ] 45.64.241.32 /index.php/Home/Device/device_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-02-12T16:03:37+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-12T16:03:38+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2018-02-12T16:03:39+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-02-12T16:03:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-02-12T16:03:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-02-12T16:04:11+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-02-12T16:04:21+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-02-12T16:04:23+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2018-02-12T16:04:38+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-02-12T16:04:42+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-02-12T16:04:42+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-02-12T16:23:47+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2018-02-12T16:23:50+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-02-12T16:23:51+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2018-02-12T16:23:55+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-02-12T16:24:01+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-02-12T16:24:13+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-02-12T16:24:15+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-02-12T16:24:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-02-12T16:24:25+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-02-12T16:26:11+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-02-12T16:26:12+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-02-12T16:26:14+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2018-02-12T16:26:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-02-12T16:26:31+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-02-12T16:26:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-02-12T16:27:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-02-12T16:27:20+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-02-12T16:32:04+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-12T16:37:45+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-02-12T16:38:00+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+
+[ 2018-02-12T16:38:01+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-02-12T16:38:04+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-02-12T16:38:35+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-02-12T16:38:41+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-02-12T16:38:43+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2018-02-12T16:39:18+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-02-12T16:39:22+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-02-12T16:39:32+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-02-12T16:39:36+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-02-12T16:39:45+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-02-12T16:39:46+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-02-12T16:39:58+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-02-12T16:39:58+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-02-12T16:40:01+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-02-12T16:40:14+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-02-12T16:40:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-02-12T16:40:18+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-02-12T16:40:21+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-02-12T16:40:27+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2018-02-12T16:40:27+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-02-12T16:40:29+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-02-12T16:40:48+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-02-12T16:40:51+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-02-12T16:40:52+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-02-12T16:41:05+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-02-12T16:41:18+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-02-12T16:41:22+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-02-12T16:41:25+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-02-12T16:41:38+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-02-12T16:41:42+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-02-12T16:41:46+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-02-12T16:41:47+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-02-12T16:41:53+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-02-12T16:41:54+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+
+[ 2018-02-12T16:41:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-02-12T16:42:08+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-02-12T16:42:11+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2018-02-12T16:42:11+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-02-12T16:42:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-12T16:42:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-02-12T16:42:20+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-02-12T16:42:31+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-02-12T16:42:34+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-02-12T16:42:35+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-02-12T16:42:41+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-02-12T16:42:41+08:00 ] 45.64.241.32 /index.php/Home/Classify/add_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-02-12T16:42:43+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyByCustomer?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-02-12T16:42:53+08:00 ] 45.64.241.32 /index.php/Home/Classify/post_classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-02-12T16:42:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-02-12T16:42:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-02-12T16:48:25+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-02-12T16:48:51+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-02-12T16:48:57+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-02-12T16:49:03+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-02-12T16:49:10+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-02-12T16:49:17+08:00 ] 45.64.241.32 /index.php/Home/Classify/editClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-02-12T16:53:54+08:00 ] 45.64.241.32 /index.php/Home/Classify/classify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-02-12T16:53:55+08:00 ] 45.64.241.32 /index.php/Home/Classify/getClassifyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+
+[ 2018-02-12T17:38:08+08:00 ] 66.102.6.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+

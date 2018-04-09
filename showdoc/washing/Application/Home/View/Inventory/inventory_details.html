@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a href="javascript:window.history.back(-1)" class="layui-btn layui-btn-primary">{$Think.lang._BACK_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container inventory">
+                <table class="layui-table">
+                    <!--<colgroup>-->
+                        <!--<col width="100">-->
+                        <!--<col width="100">-->
+                        <!--<col width="200">-->
+                        <!--<col>-->
+                    <!--</colgroup>-->
+                    <tbody>
+                    <tr>
+                        <td colspan=4>{$Think.lang._INVENTORY_NO_}：{$main_id}</td>
+                    </tr>
+
+                    <tr>
+                        <td>{$Think.lang._NO_}</td>
+                        <td>{$Think.lang._TYPE_}</td>
+                        <td>{$Think.lang._NUMBER_}</td>
+                        <td>{$Think.lang._OPERATING_}</td>
+                    </tr>
+
+                    <foreach name="childList" item="val">
+                        <tr>
+                            <td>{$val.RECEIPT_SUB_ID}</td>
+                            <td>{$val.LINEN_NAME}</td>
+                            <td>{$val.LINEN_COUNT}</td>
+                            <td>
+                                <a href="javascript:" class="layui-btn layui-btn-primary layui-btn-radius see-more" data-id="{$val.RECEIPT_SUB_ID}">{$Think.lang._VIEW_DETAIL_}</a>
+                            </td>
+                        </tr>
+                    </foreach>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/inventory/inventory_details.js"></script>
+
+</html>

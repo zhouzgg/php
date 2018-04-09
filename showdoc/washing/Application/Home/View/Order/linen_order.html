@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+    <style type="text/css">
+        .layui-table th,.layui-table td{white-space: nowrap;}
+    </style>
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;overflow-x: auto;height: 100%">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a href="{$url}" target="_top" class="layui-btn output-data">{$Think.lang._EXPORT_EXCEL_TABLE_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container order">
+                <table class="layui-table" lay-skin="line">
+                    <tbody>
+                    <tr>
+                        <td>{$Think.lang._ORDER_CUSTOMER_}：{$other.customer}</td>
+                        <td>{$Think.lang._ORDER_DEPARTMENT_}：{$other.department}</td>
+                    </tr>
+                    <tr>
+                        <td colspan=2>{$Think.lang._ORDER_TIME_}：{$other.start_time}~{$other.end_time}</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+               <table class="layui-table">
+                    <thead>
+                    <notempty name="date">
+                    <tr>
+                        <th></th>
+                        <volist name="date" id="v">
+                                <th>{$v}</th>
+                        </volist>
+                        <th>小计</th>
+                    </tr>
+                    </notempty >
+                    </thead>
+                    <tbody>
+                    <!--数据渲染-->
+                     <notempty name="list">
+                        <volist name="list" id="val" key="key">
+                            <tr>
+                                <td>{$key}</td>
+                                <volist name="date" id="v">
+                                    <!-- <td>{$val[$v]}</td> -->
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td>淨</td>
+                                                <td>污</td>
+                                            </tr>
+                                            <tr>
+                                                <td>{$val[$v]['SENDER_ID']}</td>
+                                                <td>{$val[$v]['RECEIVER_ID']}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </volist>
+                                <td>
+                                    <table>
+                                    <tr>
+                                        <td>净</td>
+                                        <td>脏</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{$val['合计']['SENDER_ID']}</td>
+                                        <td>{$val['合计']['RECEIVER_ID']}</td>
+                                    </tr>
+                                </table>
+                            </tr>
+                        </volist>
+                        <else/>
+                        <tr>
+                            <td colspan="{$i+2}"> <p class="layui-word-aux">
+                                   <span class="layui-icon"> &#xe69c;</span>
+                                {$Think.lang._LIST_NOT_DATA_}
+                         </p></td>
+                        </tr>
+                    </notempty>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/order.js"></script>
+</html>

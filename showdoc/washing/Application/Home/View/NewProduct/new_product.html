@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a href="javascript:" class="layui-btn output-data">{$Think.lang._EXPORT_EXCEL_TABLE_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+
+            <div class="layui-body-container new-product">
+                <div class="layui-form">
+
+                    <div class="layui-inline">
+                        <label class="layui-form-label">{$Think.lang._NEWPRODUCT_SELECT_WASHING_}</label>
+                        <div class="layui-input-inline">
+                            <select name="modules" id="check_washing_store" lay-verify="required" lay-search="">
+                                <option value="">{$Think.lang._SELECT_OR_SEARCH_}</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="layui-inline">
+                        <label class="layui-form-label">{$Think.lang._NEWPRODUCT_DATA_SELECT_}：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" class="layui-input" id="check_data" placeholder=" - ">
+                        </div>
+                    </div>
+
+                    <div class="layui-inline">
+                        <a href="javascript:" class="layui-btn search-btn">{$Think.lang._GO_SEARCH_}</a>
+                        <a href="javascript:" class="layui-btn layui-btn-primary clear-btn">{$Think.lang._CLEAR_SEARCH_}</a>
+                    </div>
+                </div>
+
+                <table class="layui-table">
+                    <thead>
+                    <tr>
+                        <th>{$Think.lang._NEWPRODUCT_STORAGE_TIME_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_STORAGE_TYPE_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_STORAGE_NO_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_GO_STOREHOUSE_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_RECEIVE_PEOPLE_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_STOREHOUSE_MANAGE_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_SUPPLIER_}</th>
+                        <th>{$Think.lang._NEWPRODUCT_LIST_DETAIL_}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!--数据渲染-->
+                    <notempty name="list">
+                        <foreach name="list" item="val">
+                            <tr>
+                                <td>{$val.CREATE_TIME}</td>
+                                <td>{$val.TYPE}</td>
+                                <td>{$val.RECEIPT_MAIN_ID}</td>
+                                <td>{$val.WAREHOUSE_NAME}</td>
+                                <td>{$val.USER_NAME}</td>
+                                <td>{$val.WAREHOUSE_CONTACT_PERSON}</td>
+                                <td></td>
+                                <td>
+                                    <a href="/index.php/Home/NewProduct/new_product_details?lid={$val.RECEIPT_MAIN_ID}"
+                                       class="layui-btn layui-btn-primary layui-btn-radius">{$Think.lang._VIEW_DETAIL_}</a>
+                                </td>
+                            </tr>
+                        </foreach>
+                        <else/>
+                        <tr>
+                            <td colspan="8"><p class="layui-word-aux">
+                                <span class="layui-icon"> &#xe69c;</span>
+                                {$Think.lang._LIST_NOT_DATA_}
+                            </p>
+                            </td>
+                        </tr>
+                    </notempty>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <!--底部-->
+    <include file="Public:layui-footer"/>
+</div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/new_product/new_product.js"></script>
+</html>

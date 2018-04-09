@@ -1,0 +1,31 @@
+<div class="layui-header">
+    <div class="layui-logo">E3 Smart Linen System</div>
+
+    <!--<ul class="layui-nav layui-layout-left">-->
+    <!--<li class="layui-nav-item"><a href="">控制台</a></li>-->
+    <!--<li class="layui-nav-item"><a href="">商品管理</a></li>-->
+    <!--<li class="layui-nav-item"><a href="">用户</a></li>-->
+    <!--<li class="layui-nav-item">-->
+    <!--<a href="javascript:;">其它系统</a>-->
+    <!--<dl class="layui-nav-child">-->
+    <!--<dd><a href="">邮件管理</a></dd>-->
+    <!--<dd><a href="">消息管理</a></dd>-->
+    <!--<dd><a href="">授权管理</a></dd>-->
+    <!--</dl>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <ul class="layui-nav layui-layout-right">
+        <li class="layui-nav-item">
+            <a href="javascript:;">
+                {$Think.session.USER_NAME}
+            </a>
+            <dl class="layui-nav-child">
+                <dd><a href="">{$Think.lang._SECURITY_SETTINGS_}</a></dd>
+                <dd><a href="">{$Think.lang._BASIC_INFORMATION_}</a></dd>
+                <dd><a class='login-out' href="javascript:">{$Think.lang._SIGN_OUT_}</a></dd>
+            </dl>
+        </li>
+
+        <li class="layui-nav-item clear-cache"><a href="javascript:">{$Think.lang._CLEAR_CACHE_}</a></li>
+    </ul>
+</div>

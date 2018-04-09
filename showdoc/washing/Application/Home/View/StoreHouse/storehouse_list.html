@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+    <style>
+        .ifuner_pop .layui-pop .layui-table input[readonly] {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a target=_top href="/index.php/Home/StoreHouse/export_storehouse_list" class="layui-btn output-data">{$Think.lang._EXPORT_EXCEL_TABLE_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container store-house">
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="100">
+                        <col width="100">
+                        <col width="200">
+                        <col>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>{$Think.lang._STOREHOUSE_CUSTOMER_}</th>
+                        <th>{$Think.lang._STOREHOUSE_DEPARTMENT_}</th>
+                        <th>{$Think.lang._STOREHOUSE_NO_}</th>
+                        <th>{$Think.lang._STOREHOUSE_NAME_}</th>
+                        <th>{$Think.lang._STOREHOUSE_ADDRESS_}</th>
+                        <th>{$Think.lang._STOREHOUSE_PERSON_}</th>
+                        <th>{$Think.lang._STOREHOUSE_PHONE_}</th>
+                        <th>{$Think.lang._OPERATING_}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <notempty name="list">
+                        <foreach name="list" item="var">
+                            <tr>
+                                <td>{$var.CUSTOMER_NAME}</td>
+                                <td>{$var.DEPARTMENT_NAME}</td>
+                                <td>{$var.WAREHOUSE_ID}</td>
+                                <td>{$var.WAREHOUSE_NAME}</td>
+                                <td>{$var.WAREHOUSE_ADDRESS}</td>
+                                <td>{$var.WAREHOUSE_CONTACT_PERSON}</td>
+                                <td>{$var.WAREHOUSE_CONTACT_PHONE}</td>
+                                <td>
+                                    <a href="javascript:;" data-id="{$var.WAREHOUSE_ID}" data-dpid="{$var.DEPARTMENT_ID}" class="layui-btn layui-btn-normal layui-btn-radius edit-btn">
+                                        修改资料
+                                    </a>
+                                    <!--<a href="{:U('StoreHouse/storehouse_list_details')}?lid={$var.WAREHOUSE_ID}"-->
+                                    <!--class="layui-btn layui-btn-primary layui-btn-radius">-->
+                                    <!--{$Think.lang._VIEW_DETAIL_}-->
+                                    <!--</a>-->
+                                </td>
+                            </tr>
+                        </foreach>
+                        <else/>
+                        <tr>
+                            <td colspan="8"><p class="layui-word-aux">
+                                <span class="layui-icon"> &#xe69c;</span>
+                                {$Think.lang._LIST_NOT_DATA_}
+                            </p></td>
+                        </tr>
+                    </notempty>
+                    </tbody>
+                </table>
+
+
+                <script>
+                    var tempObj = {
+                        choose_dt:<?php echo json_encode($departmentList);?>,
+                        th: {
+                            CUSTOMER: "{$Think.lang._STOREHOUSE_CUSTOMER_}",
+                            DEPARTMENT: "{$Think.lang._STOREHOUSE_DEPARTMENT_}",
+                            STOREHOUSE_NO: "{$Think.lang._STOREHOUSE_NO_}",
+                            STOREHOUSE_NAME: "{$Think.lang._STOREHOUSE_NAME_}",
+                            ADDRESS: "{$Think.lang._STOREHOUSE_ADDRESS_}",
+                            PERSON: "{$Think.lang._STOREHOUSE_PERSON_}",
+                            PHONE: "{$Think.lang._STOREHOUSE_PHONE_}",
+                            OPERATING: "{$Think.lang._OPERATING_}",
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script type="text/html" id="layui-pop">
+    {{if status==1}}
+    <div class="ifuner_pop">
+        <div class="layui-layer-shade" id="layui-layer-shade1" times="1"
+             style="z-index: 19891014; background-color: rgb(0, 0, 0); opacity: 0.3;"></div>
+
+        <div class="layui-pop layer-anim"
+             style="z-index: 19891015;">
+            <div class="layui-layer-title">修改资料</div>
+            <div id="" class="layui-layer-content" style="height: 198px;">
+                <div style="padding: 20px;">
+                    <table class="layui-table">
+                        <tbody>
+                        <tr>
+                            <td>{{th.CUSTOMER}}</td>
+                            <td><input type="text" id="custom" readonly value={{tr.CUSTOMER}}></td>
+                        </tr>
+                        <tr>
+                            <td>{{th.DEPARTMENT}}</td>
+                            <td>
+                                <select name="modules" id="depart" lay-verify="required" lay-search="">
+                                    <option value=""></option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>{{th.STOREHOUSE_NAME}}</td>
+                            <td><input type="text" id="title" value="{{tr.STOREHOUSE_NAME}}"></td>
+                        </tr>
+                        <tr>
+                            <td>{{th.ADDRESS}}</td>
+                            <td><input type="text" id="address" value="{{tr.ADDRESS}}"></td>
+                        </tr>
+                        <tr>
+                            <td>{{th.PERSON}}</td>
+                            <td><input type="text" id="username" value="{{tr.PERSON}}"></td>
+                        </tr>
+                        <tr>
+                            <td>{{th.PHONE}}</td>
+                            <td><input type="text" maxlength="11" id="phone" value="{{tr.PHONE}}"></td>
+                        </tr>
+                        <tr>
+                            <td>{{th.OPERATING}}</td>
+                            <td>
+                                <a href="javascript:;" class="layui-btn enter-edit">确认修改</a>
+                                <a href="javascript:;" class="layui-btn layui-btn-primary layui-layer-close">取消返回</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <span class="layui-layer-setwin">
+            <a class="layui-layer-ico layui-layer-close layui-layer-close1"
+               href="javascript:;">
+            </a>
+        </span>
+        </div>
+    </div>
+    {{/if}}
+</script>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/lib/template.js"></script>
+<script src="__PUBLIC__/static/js/StoreHouse/store_house_list.js?data=17121814"></script>
+</html>

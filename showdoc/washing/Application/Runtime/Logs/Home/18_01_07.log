@@ -1,0 +1,1155 @@
+[ 2018-01-07T09:33:57+08:00 ] 116.25.190.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-07T09:40:12+08:00 ] 116.25.190.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-01-07T09:40:13+08:00 ] 116.25.190.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-07T09:40:17+08:00 ] 116.25.190.117 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-01-07T09:40:17+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-01-07T09:45:31+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-07T09:45:33+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-07T09:46:04+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html?time=1515289564854
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2018-01-07T09:46:18+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-01-07T09:46:19+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html?time=1515289579846
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-01-07T09:46:26+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-07T09:46:28+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-07T09:46:48+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-07T09:46:48+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-01-07T09:47:16+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product?washing_id=12&start_time=2017-1-1&end_time=2018-1-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-01-07T09:47:16+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-07T09:55:41+08:00 ] 116.25.190.117 /index.php/Home/WashingPlants/add_washing_plant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-01-07T09:55:50+08:00 ] 116.25.190.117 /index.php/Home/WashingPlants/washing_plant_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-01-07T09:56:18+08:00 ] 116.25.190.117 /index.php/Home/Custom/add_custom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-01-07T09:56:22+08:00 ] 116.25.190.117 /index.php/Home/Custom/custom_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-07T09:56:26+08:00 ] 116.25.190.117 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-01-07T09:56:26+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-07T09:57:44+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-01-07T09:57:46+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html?time=1515290271254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-07T09:57:49+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html?time=1515290274345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-07T09:57:56+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-01-07T09:57:57+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-01-07T09:58:09+08:00 ] 116.25.190.117 /index.php/Home/Custom/add_custom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-07T09:58:21+08:00 ] 101.226.33.201 /index.php/Home/Custom/add_custom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-07T09:58:45+08:00 ] 101.226.66.181 /index.php/Home/Login/getVerify.html?time=1515290271254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-07T09:58:48+08:00 ] 61.129.8.179 /index.php/Home/Login/getVerify.html?time=1515290274345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-01-07T09:58:56+08:00 ] 116.25.190.117 /index.php/Home/Department/add_dt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-01-07T09:58:57+08:00 ] 101.226.33.219 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-01-07T09:59:09+08:00 ] 61.151.178.164 /index.php/Home/Custom/add_custom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-07T10:00:42+08:00 ] 116.25.190.117 /index.php/Home/Department/get_department_list?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-01-07T10:02:24+08:00 ] 116.25.190.117 /index.php/home/department/add.dt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-07T10:02:27+08:00 ] 116.25.190.117 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-07T10:02:27+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-01-07T10:02:53+08:00 ] 116.25.190.117 /index.php/Home/Department/add_dt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2018-01-07T10:02:59+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-07T10:02:59+08:00 ] 116.25.190.117 /index.php/Home/File/uploadLogo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-01-07T10:02:59+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-01-07T10:03:06+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/department_name_list?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-01-07T10:03:23+08:00 ] 101.226.33.216 /index.php/home/department/add.dt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-07T10:04:01+08:00 ] 116.25.190.117 /index.php/Home/WashingPlants/add_washing_plant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-01-07T10:04:18+08:00 ] 116.25.190.117 /index.php/Home/WashingPlants/washing_plant_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-07T10:04:24+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-01-07T10:04:24+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-01-07T10:04:29+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-07T10:04:35+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-01-07T10:04:35+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-01-07T10:04:38+08:00 ] 116.25.190.117 /index.php/Home/Department/dt_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-01-07T10:04:43+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-01-07T10:04:44+08:00 ] 116.25.190.117 /index.php/Home/Department/dt_list?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-01-07T10:04:52+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-07T10:05:00+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-07T10:05:00+08:00 ] 101.226.33.238 /index.php/Home/WashingPlants/add_washing_plant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-07T10:05:01+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-01-07T10:05:06+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-01-07T10:05:07+08:00 ] 116.25.190.117 /index.php/Home/Department/dt_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-07T10:05:13+08:00 ] 116.25.190.117 /index.php/Home/Department/dt_list?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-01-07T10:05:13+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-07T10:05:17+08:00 ] 101.226.66.181 /index.php/Home/WashingPlants/washing_plant_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-01-07T10:05:22+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-07T10:05:22+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010432s ]
+
+[ 2018-01-07T10:05:22+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+
+[ 2018-01-07T10:05:23+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-01-07T10:05:23+08:00 ] 101.226.33.218 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+
+[ 2018-01-07T10:05:23+08:00 ] 61.151.218.119 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-01-07T10:05:29+08:00 ] 61.129.6.151 /index.php/Home/StoreHouse/storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-07T10:05:32+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/department_name_list?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-01-07T10:05:34+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-01-07T10:05:43+08:00 ] 61.129.10.43 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-07T10:05:47+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-07T10:05:48+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-01-07T10:06:00+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/add_storehouse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-01-07T10:06:01+08:00 ] 116.25.190.117 /index.php/Home/StoreHouse/customer_name_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-07T10:06:02+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product?washing_id=12&start_time=2017-1-1&end_time=2018-1-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-01-07T10:06:02+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-07T10:06:04+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product_details?lid=9991711071738680
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-01-07T10:06:05+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-07T10:06:06+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-01-07T10:06:07+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-01-07T10:06:07+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-07T10:06:08+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-01-07T10:06:31+08:00 ] 101.226.66.191 /index.php/Home/StoreHouse/department_name_list?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-01-07T10:06:46+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product?washing_id=12&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-07T10:06:47+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-01-07T10:06:49+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product?washing_id=12&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-01-07T10:06:49+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-07T10:07:00+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/newproduct_detail_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-01-07T10:07:43+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-01-07T10:07:46+08:00 ] 101.226.33.228 /index.php/Home/NewProduct/new_product?washing_id=12&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-07T10:07:47+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-01-07T10:07:57+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-01-07T10:08:00+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-01-07T10:08:01+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-07T10:08:47+08:00 ] 101.226.33.216 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-01-07T10:09:08+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product?washing_id=33&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-07T10:09:08+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-07T10:09:09+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product?washing_id=33&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-07T10:09:10+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-07T10:09:18+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-01-07T10:09:19+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-01-07T10:10:08+08:00 ] 61.129.7.217 /index.php/Home/NewProduct/new_product?washing_id=33&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-01-07T10:17:10+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-01-07T10:17:12+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html?time=1515291433171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-07T10:17:18+08:00 ] 116.25.190.117 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-07T10:17:19+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-01-07T10:23:24+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/newproduct_detail_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+
+[ 2018-01-07T10:27:35+08:00 ] 116.25.190.117 /index.php/Home/NewProduct/newproduct_detail_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-07T10:32:52+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-01-07T10:33:04+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-01-07T10:33:09+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-01-07T10:33:36+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order?customer_id=15&department_id=28,&storehouse_id=34,&washing_id=33&start_time=2017-1-1&end_time=2018-1-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-01-07T10:34:58+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-01-07T10:35:04+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-01-07T10:35:07+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-07T10:35:23+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order?customer_id=15&department_id=28,&storehouse_id=34,&washing_id=12&start_time=2017-1-1&end_time=2018-1-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-07T10:35:38+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_details?lid=9991711071738680
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-01-07T10:35:41+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_detail_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-01-07T10:35:56+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-01-07T10:36:00+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-07T10:36:04+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-01-07T10:36:20+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order?customer_id=15&department_id=28,&storehouse_id=34,&washing_id=12&start_time=2017-1-1&end_time=2018-1-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-01-07T10:40:16+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-07T10:40:24+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-01-07T10:40:36+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-07T10:41:04+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order?customer_id=13&department_id=24,&storehouse_id=28,&washing_id=12&start_time=2018-1-1&end_time=2018-1-7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-07T10:41:23+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_details?lid=9991801051038481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-01-07T10:49:31+08:00 ] 116.25.190.117 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-07T10:49:31+08:00 ] 116.25.190.117 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-07T10:55:52+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-01-07T10:56:04+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-01-07T10:56:17+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-01-07T10:56:22+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_details?lid=9991801051038481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-07T10:56:33+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order?customer_id=13&department_id=24,&storehouse_id=28,&washing_id=12&start_time=2018-1-1&end_time=2018-1-17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-01-07T10:57:40+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_details?lid=0071801051126169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-01-07T10:58:09+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_detail_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-01-07T11:10:55+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-07T11:10:59+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-01-07T11:11:04+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-07T11:11:17+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order?customer_id=13&department_id=26,&storehouse_id=31,&washing_id=12&start_time=2018-1-1&end_time=2018-1-24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-01-07T11:12:04+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-01-07T11:12:58+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order_details?lib=0071801051110451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-07T11:13:01+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_detail_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-01-07T11:13:59+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order_details?lib=0071801051110451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-01-07T11:15:12+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-01-07T11:15:16+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-01-07T11:15:30+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order?customer_id=13&department_id=24,&storehouse_id=28,&washing_id=12&start_time=2018-1-1&end_time=2018-1-7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-07T11:15:41+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order_details?lib=9991801051038535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2018-01-07T11:20:09+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2018-01-07T11:20:14+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-01-07T11:20:18+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-07T11:20:22+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-01-07T11:20:34+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order?customer_id=13&department_id=23,26,24,&storehouse_id=28,31,&washing_id=12&start_time=2018-1-1&end_time=2018-1-24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-07T11:20:46+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order_details?lib=0071801051110451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-01-07T11:20:48+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order_detail_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-01-07T11:21:08+08:00 ] 101.226.33.238 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-01-07T11:21:09+08:00 ] 116.25.190.117 /index.php/Home/Device/device_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-01-07T11:21:17+08:00 ] 101.226.66.181 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-01-07T11:21:33+08:00 ] 61.151.178.174 /index.php/Home/Order/clean_order?customer_id=13&department_id=23,26,24,&storehouse_id=28,31,&washing_id=12&start_time=2018-1-1&end_time=2018-1-24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-01-07T11:21:38+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-01-07T11:21:39+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-01-07T11:21:40+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-07T11:21:45+08:00 ] 101.226.33.220 /index.php/Home/Order/clean_order_details?lib=0071801051110451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-07T11:22:09+08:00 ] 101.226.33.218 /index.php/Home/Device/device_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-01-07T11:30:55+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-07T11:31:09+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-07T11:31:12+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-01-07T11:31:16+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=13&department_id=0,23,26,24,21,27,22,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-01-07T11:31:20+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-01-07T11:31:32+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-07T11:31:36+08:00 ] 101.226.33.200 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-01-07T11:31:40+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-01-07T11:31:42+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=15&department_id=28,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-01-07T11:31:45+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-01-07T11:32:15+08:00 ] 101.226.33.206 /index.php/Home/Inventory/inventory?customer_id=13&department_id=0,23,26,24,21,27,22,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-01-07T11:32:19+08:00 ] 101.226.66.187 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-01-07T11:32:42+08:00 ] 101.226.66.187 /index.php/Home/Inventory/inventory?customer_id=15&department_id=28,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-01-07T11:32:45+08:00 ] 101.226.33.221 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-01-07T11:33:54+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-01-07T11:33:59+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-01-07T11:34:02+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-01-07T11:34:06+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=13&department_id=0,23,26,24,21,27,22,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-01-07T11:34:08+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-07T11:34:13+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-01-07T11:34:46+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-01-07T11:34:52+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=13&department_id=24,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-07T11:34:59+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-07T11:35:35+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-01-07T11:36:28+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-01-07T11:36:30+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-07T11:36:34+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=13&department_id=0,23,26,24,21,27,22,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-07T11:36:40+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-07T11:36:42+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_detail_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-01-07T11:37:34+08:00 ] 61.151.178.175 /index.php/Home/Inventory/inventory?customer_id=13&department_id=0,23,26,24,21,27,22,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-07T11:38:23+08:00 ] 116.25.190.117 /index.php/Home/User/user_choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-01-07T11:41:14+08:00 ] 116.25.190.117 /index.php/Home/User/user_add?cid=user&did=fin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-01-07T11:41:23+08:00 ] 116.25.190.117 /index.php/Home/User/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-07T11:41:29+08:00 ] 116.25.190.117 /index.php/Home/User/user_add?cid=user&did=dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-01-07T11:41:38+08:00 ] 116.25.190.117 /index.php/Home/User/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-07T11:42:22+08:00 ] 61.129.6.147 /index.php/Home/User/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-07T11:42:27+08:00 ] 116.25.190.117 /index.php/Home/User/user_choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-01-07T11:42:31+08:00 ] 116.25.190.117 /index.php/Home/User/user_add?cid=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-01-07T11:42:34+08:00 ] 116.25.190.117 /index.php/Home/User/user_choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-07T11:42:41+08:00 ] 116.25.190.117 /index.php/Home/User/user_add?cid=wash&did=dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-01-07T11:43:27+08:00 ] 61.151.218.119 /index.php/Home/User/user_choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-07T11:43:31+08:00 ] 101.226.225.85 /index.php/Home/User/user_add?cid=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-01-07T11:43:36+08:00 ] 116.25.190.117 /index.php/Home/User/user_add?cid=user&did=dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-01-07T11:43:41+08:00 ] 61.151.178.177 /index.php/Home/User/user_add?cid=wash&did=dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-01-07T11:43:53+08:00 ] 116.25.190.117 /index.php/Home/User/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2018-01-07T11:48:58+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-07T11:49:44+08:00 ] 116.25.190.117 /index.php/Home/Order/clean_order_details?lib=9991801051038535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-01-07T11:54:55+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-07T11:55:04+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-01-07T11:55:24+08:00 ] 116.25.190.117 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-07T11:55:27+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-01-07T11:55:32+08:00 ] 116.25.190.117 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2018-01-07T11:55:43+08:00 ] 116.25.190.117 /index.php/Home/Order/dirty_order?customer_id=13&department_id=24,&storehouse_id=28,&washing_id=12&start_time=2018-1-1&end_time=2018-1-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2018-01-07T12:03:24+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-01-07T12:03:27+08:00 ] 116.25.190.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-01-07T12:03:33+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-01-07T12:03:42+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-01-07T12:03:45+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=13&department_id=24,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-07T12:29:48+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_details.html?lid=9991712071126261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-07T12:29:51+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory_detail_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-01-07T12:29:57+08:00 ] 116.25.190.117 /index.php/Home/Inventory/choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-07T12:30:00+08:00 ] 116.25.190.117 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-01-07T12:30:06+08:00 ] 116.25.190.117 /index.php/Home/Inventory/inventory?customer_id=13&department_id=0,23,26,24,21,27,22,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-07T18:23:44+08:00 ] 106.11.226.31 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+

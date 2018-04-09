@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a target=_top href="{:U('User/export_user_list')}?name=<?php $_GET['name'];?>&role_id=<?php $_GET['role_id'];?>" class="layui-btn output-data">{$Think.lang._EXPORT_EXCEL_TABLE_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container user">
+                <div class="layui-form user_part">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">{$Think.lang._USER_FULL_NAME_}</label>
+                        <!--<div class="layui-input-inline">
+                            <select name="modules" lay-verify="required" lay-search="">
+                                <option value="">直接选择或搜索选择</option>
+                            </select>
+                        </div>-->
+                        <div class="layui-input-inline">
+                            <input type="text" name="title" id="username" lay-verify="title" autocomplete="off" placeholder="{$Think.lang._USER_INPUT_NAME_}" class="layui-input">
+                        </div>
+                    </div>
+
+                    <!--<div class="layui-inline">
+                        <label class="layui-form-label">{$Think.lang._USER_IDENTIFY_}</label>
+                        <div class="layui-input-inline">
+                            <select name="modules" id="person-type" lay-verify="required" lay-search="">
+                                <option value="">{$Think.lang._SELECT_OR_SEARCH_}</option>
+                                <foreach name="rolename_list" item="var">
+                                    <option value="{$var.ROLE_ID}">{$var.ROLE_NAME}</option>
+                                </foreach>
+                            </select>
+                        </div>
+                    </div>-->
+
+                    <div class="layui-inline">
+                        <div class="layui-input-block">
+                            <button class="layui-btn search-btn">{$Think.lang._GO_SEARCH_}</button>
+                        </div>
+                    </div>
+
+                    <table class="layui-table">
+                        <colgroup>
+                            <col width="60">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>{$Think.lang._USER_NO_}</th>
+                            <th>{$Think.lang._USER_NAME_}</th>
+                            <th>{$Think.lang._USER_FULL_NAME_}</th>
+                            <th>{$Think.lang._USER_IDENTIFY_}</th>
+                            <th>{$Think.lang._USER_PHONE_}</th>
+                            <th>{$Think.lang._USER_AUDIT_STATUS_}</th>
+                            <th>{$Think.lang._OPERATING_}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <notempty name="userInfo">
+                        <foreach name="userInfo" item="var">
+                            <tr>
+                                <td>{$var.USER_ID}</td>
+                                <td>{$var.USER_LOGINAME}</td>
+                                <td>{$var.USER_NAME}</td>
+                                <td>{$var.ROLE_NAME}</td>
+                                <td>{$var.CELLPHONE}</td>
+                                <td>
+                                    {$Think.lang._USER_START_STATUS_}
+                                </td>
+                                <td data-id="{$var.USER_ID}">
+                                    <button class="layui-btn layui-btn-radius edit" role-id={$var.ROLE_ID}>{$Think.lang._EDIT_}</button>
+                                    <button class="layui-btn layui-btn-warm layui-btn-radius edit-pw">{$Think.lang._USER_EDIT_PASSWORD_}</button>
+                                    <!--<if condition="$var.AUTH eq '1'">-->
+                                        <!--<a href="/index.php/Home/User/user_list_auth?aid={$var.USER_ID}&rid={$var.ROLE_ID}" class="layui-btn layui-btn-danger layui-btn-radius auth">
+                                            {$Think.lang._USER_AUDIT_MANAGE_}
+                                        </a>-->
+                                    <!--</if>-->
+                                    <!--<button class="layui-btn layui-btn-radius layui-btn-danger del">删除</button>-->
+                                </td>
+                            </tr>
+                        </foreach>
+                            <else/>
+                            <tr>
+                                <td colspan="6"><p class="layui-word-aux">
+                                    <span class="layui-icon"> &#xe69c;</span>
+                                    {$Think.lang._LIST_NOT_DATA_}
+                                </p></td>
+                            </tr>
+                        </notempty>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/user/user_list.js?data=171208"></script>
+</html>

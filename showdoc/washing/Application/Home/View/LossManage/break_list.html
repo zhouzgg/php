@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">
+                {$title}
+                <a target=_top href="" class="layui-btn output-data">{$Think.lang._EXPORT_EXCEL_TABLE_}</a>
+            </blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container loss">
+
+                <div class="layui-form" action="">
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">{$Think.lang._SELECT_CUSTOMER_}</label>
+                            <div class="layui-input-inline choose-custom">
+                                <select name="modules" id="choose-custom" lay-verify="required" lay-search="">
+                                    <option value=""></option>
+                                    <foreach name="customerList" item="var">
+                                        <option value="{$var.WAREHOUSE_ID}">{$var.WAREHOUSE_NAME}</option>
+                                    </foreach>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">{$Think.lang._STATUS_}</label>
+                            <div class="layui-input-inline status">
+                                <select name="modules" id="status" lay-verify="required" lay-search="">
+                                    <option value="-1">{$Think.lang._SELECT_OR_SEARCH_}</option>
+                                    <option value="">{$Think.lang._LOSS_ALL_AUDIT_}</option>
+                                    <option value="1">{$Think.lang._LOSS_NOT_AUDIT_}</option>
+                                    <option value="2">{$Think.lang._LOSS_NOT_PASST_}</option>
+                                    <option value="3">{$Think.lang._LOSS_PASST_}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">{$Think.lang._LOSS_APPLICANT_}</label>
+                            <div class="layui-input-inline">
+                                <input type="text" id="person-name" name="title" lay-verify="title" autocomplete="off"
+                                       placeholder="{$Think.lang._LOSS_APPLICANT_NAME_}" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-inline">
+                            <div class="layui-input-block">
+                                <button class="layui-btn search-btn">{$Think.lang._GO_SEARCH_}</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--表格-->
+
+                    <table class="layui-table">
+                        <colgroup>
+                            <col width="150">
+                            <col width="150">
+                            <col width="200">
+                            <col>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>{$Think.lang._LOSS_ORDER_NO_}</th>
+                            <th>{$Think.lang._LOSS_SUBMIT_TIME_}</th>
+                            <th>{$Think.lang._LOSS_APPLICANT_}</th>
+                            <th>{$Think.lang._LOSS_DEPARTMENT_}</th>
+                            <th>{$Think.lang._LOSS_DUTIES_}</th>
+                            <th>{$Think.lang._LOSS_GOODS_}</th>
+                            <th>{$Think.lang._LOSS_NUMBER_}</th>
+                            <th>{$Think.lang._LOSS_STATUS_}</th>
+                            <th>{$Think.lang._OPERATING_}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <notempty name="list">
+                            <foreach name="list" item="val">
+                                <tr>
+                                    <td>{$val.RECEIPT_MAIN_ID}</td>
+                                    <td>{$val.CREATE_TIME}</td>
+                                    <td>{$val.USER_NAME}</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>{$val.LINEN_NAME}</td>
+                                    <td>{$val.LINEN_COUNT}</td>
+                                    <td>{$val.STATUSNAME}</td>
+                                    <td>
+                                        <!--传参形式接受-->
+                                        <a href="{:U('LossManage/break_list_details')}?lid={$val.RECEIPT_MAIN_ID}&verify={$break_verify}"
+                                           class="layui-btn layui-btn-radius">{$Think.lang._VIEW_DETAIL_}</a>
+                                    </td>
+                                </tr>
+                            </foreach>
+                            <else/>
+                            <tr>
+                                <td colspan="9"><p class="layui-word-aux">
+                                    <span class="layui-icon"> &#xe69c;</span>
+                                    {$Think.lang._LIST_NOT_DATA_}
+                                </p></td>
+                            </tr>
+                        </notempty>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/loss_manage/loss_list_common.js"></script>
+</html>

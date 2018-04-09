@@ -1,0 +1,10 @@
+[ 2018-03-04T04:02:46+08:00 ] 106.11.242.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012968s ]
+
+[ 2018-03-04T05:02:40+08:00 ] 66.102.6.210 /index.php/Home/User/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+

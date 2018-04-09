@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+    <style>
+        .user-add-choose-dp .layui-form-checkbox {
+            margin-bottom: 10px;
+        }
+        .layui-disabled, .layui-disabled:hover {
+            color: #333!important;
+        }
+        .ifuner_pop .layui-input-inline {
+            width: 100%;
+        }
+        .ifuner_pop .layui-block {
+            text-align: center;
+        }
+        #ifuner_tree {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote">{$title}</blockquote>
+            <!--每个页面为了保持样式不冲突必须 唯一的样式必须统一一个不一样的类名-->
+            <div class="layui-body-container user">
+
+                <fieldset class="layui-elem-field">
+                    <legend>{$Think.lang._USER_BASIC_MESSAGE_}</legend>
+                    <div class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">{$Think.lang._USER_NAME_}</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="title" id="username" lay-verify="title" autocomplete="off"
+                                       placeholder="{$Think.lang._USER_NOT_USERNAME_}" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">{$Think.lang._USER_TRUST_NAME_}</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="title" id="rel-name" lay-verify="title" autocomplete="off"
+                                       placeholder="{$Think.lang._USER_NOT_TRUENAME_}" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">{$Think.lang._USER_PHONE_}</label>
+                            <div class="layui-input-block">
+                                <input type="tel" name="phone" id="phone" lay-verify="phone"
+                                       placeholder="{$Think.lang._USER_NOT_COLLPHONE_}"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">{$Think.lang._USER_PASSWORD_}</label>
+                            <div class="layui-input-block">
+                                <input type="password" name="password" id="password" lay-verify="pass"
+                                       placeholder="{$Think.lang._USER_PASSWORD_LENGTH_}"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">{$Think.lang._USER_SECOND_PASSWORD}</label>
+                            <div class="layui-input-block">
+                                <input type="password" name="password" id="confirm_password" lay-verify="pass"
+                                       placeholder="{$Think.lang._USER_SECOND_INPUT_PASSWORD_}"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item layui-input-inline">
+                            <label class="layui-form-label">{$Think.lang._USER_ROLE_NAME_}</label>
+                            <div class="layui-input-inline">
+                                <select name="modules" id="part-name" lay-verify="required" disabled>
+                                    <!--<option value="">{$Think.lang._SELECT_OR_SEARCH_}</option>-->
+                                    <foreach name="rolelist" item="var">
+                                        <option value="{$var.ROLE_ID}" >{$var.ROLE_NAME}</option>
+                                    </foreach>
+                                </select>
+                            </div>
+                        </div>
+                        <if condition="$cids neq 'admin'">
+                            <div class="layui-form-item layui-block custom-select">
+                                <label class="layui-form-label">{$Think.lang._SELECT_CUSTOMER_}</label>
+                                <div class="layui-input-inline custom">
+                                    <select name="modules" id="custom" lay-verify="required" lay-search="">
+                                        <option value="">{$Think.lang._SELECT_OR_SEARCH_}</option>
+                                        <foreach name="customerList" item="var">
+                                            <option value="{$var.WAREHOUSE_ID}">{$var.WAREHOUSE_NAME}</option>
+                                        </foreach>
+                                    </select>
+                                </div>
+                            </div>
+                            <if condition="$dids eq 'dis'">
+                                <div class="layui-form-item layui-block">
+                                    <label class="layui-form-label">{$Think.lang._SELECT_DEPARTMENT_PAGE_}</label>
+                                    <div class="layui-input-block">
+
+                                        <div class="layui-unselect layui-form-select choose-dp">
+                                            <div class="layui-select-title">
+                                                <input type="text" placeholder="请选择部门" value="" class="layui-input layui-unselect">
+                                                <i class="layui-edge"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </if>
+                        </if>
+                        <div class="layui-form-item layui-input-block">
+                            <button class="layui-btn layui-btn-big add-btn">{$Think.lang._BUTTON_ADD_}</button>
+                            <button class="layui-btn layui-btn-primary layui-btn-big reset-btn">
+                                {$Think.lang._BUTTON_RESET_}
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+
+<!--通用自定义弹层-->
+<div class="ifuner_pop user-add-choose-dp" style="display: none">
+    <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index: 19891014; background-color: rgb(0, 0, 0); opacity: 0.3;"></div>
+    <div class="layui-pop layer-anim" style="z-index: 19891015;">
+        <div class="layui-layer-title">修改资料</div>
+        <div class="layui-layer-content" style="height: 198px;">
+            <div class="layui-form">
+                <div class="layui-input-inline" style="padding: 20px;">
+                    <!--<div class="layui-block all-checkbox" id="ifuner_tree"></div>-->
+                    <ul id="ifuner_tree" class="clearfix"></ul>
+                    <div class="layui-block">
+                        <button class="layui-btn choose-btn">确认选择</button>
+                        <button class="layui-btn layui-btn-primary close-pop">取消返回</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="layui-layer-setwin">
+            <a class="layui-layer-ico layui-layer-close close-pop layui-layer-close1"
+               href="javascript:;">
+            </a>
+        </span>
+    </div>
+</div>
+
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+<script src="__PUBLIC__/static/lib/layui/lay/modules/layui-xtree.js"></script>
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/user/user_add.js?data=171208"></script>
+</html>

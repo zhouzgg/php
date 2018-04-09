@@ -1,0 +1,1116 @@
+[ 2018-03-30T09:23:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015372s ]
+
+[ 2018-03-30T09:23:40+08:00 ] 127.0.0.1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-03-30T09:23:41+08:00 ] 127.0.0.1 /index.php/Home/Login/getVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2018-03-30T09:24:34+08:00 ] 127.0.0.1 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-03-30T09:24:36+08:00 ] 127.0.0.1 /index.php/Home/Login/getVerify.html?time=1522373076282
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2018-03-30T09:24:38+08:00 ] 127.0.0.1 /index.php/Home/Login/post_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2018-03-30T09:24:40+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-03-30T09:24:48+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-03-30T09:24:51+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-03-30T09:24:52+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-03-30T09:31:12+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_choose_linen?type=sender
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-03-30T09:31:14+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-03-30T09:31:15+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2018-03-30T09:31:23+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d')' at line 1
+ [ SQL语句 ] : SELECT l.LINEN_ID,l.LINEN_NAME,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') as DATE,sum(s.LINEN_COUNT) as COUNT,m.SENDER_ID,m.RECEIVER_ID FROM SERVICE_T_RECEIPT_SUB s LEFT JOIN SERVICE_T_RECEIPT_MAIN AS m ON s.RECEIPT_MAIN_ID = m.RECEIPT_MAIN_ID RIGHT JOIN SERVICE_T_LINEN AS l ON l.LINEN_ID = s.LINEN_ID  WHERE ( m.CREATE_TIME > '2018-2-6' AND m.CREATE_TIME < '2018-2-6 23:59:59'  ) AND m.SENDER_ID IN () GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d')' at line 1
+ [ SQL语句 ] : SELECT l.LINEN_ID,l.LINEN_NAME,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') as DATE,sum(s.LINEN_COUNT) as COUNT,m.SENDER_ID,m.RECEIVER_ID FROM SERVICE_T_RECEIPT_SUB s LEFT JOIN SERVICE_T_RECEIPT_MAIN AS m ON s.RECEIPT_MAIN_ID = m.RECEIPT_MAIN_ID RIGHT JOIN SERVICE_T_LINEN AS l ON l.LINEN_ID = s.LINEN_ID  WHERE ( m.CREATE_TIME > '2018-2-6' AND m.CREATE_TIME < '2018-2-6 23:59:59'  ) AND m.SENDER_ID IN () GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') 
+
+[ 2018-03-30T09:32:27+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-03-30T09:32:51+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d')' at line 1
+ [ SQL语句 ] : SELECT l.LINEN_ID,l.LINEN_NAME,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') as DATE,sum(s.LINEN_COUNT) as COUNT,m.SENDER_ID,m.RECEIVER_ID FROM SERVICE_T_RECEIPT_SUB s LEFT JOIN SERVICE_T_RECEIPT_MAIN AS m ON s.RECEIPT_MAIN_ID = m.RECEIPT_MAIN_ID RIGHT JOIN SERVICE_T_LINEN AS l ON l.LINEN_ID = s.LINEN_ID  WHERE ( m.CREATE_TIME > '2018-2-6' AND m.CREATE_TIME < '2018-2-6 23:59:59'  ) AND m.SENDER_ID IN () GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d')' at line 1
+ [ SQL语句 ] : SELECT l.LINEN_ID,l.LINEN_NAME,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') as DATE,sum(s.LINEN_COUNT) as COUNT,m.SENDER_ID,m.RECEIVER_ID FROM SERVICE_T_RECEIPT_SUB s LEFT JOIN SERVICE_T_RECEIPT_MAIN AS m ON s.RECEIPT_MAIN_ID = m.RECEIPT_MAIN_ID RIGHT JOIN SERVICE_T_LINEN AS l ON l.LINEN_ID = s.LINEN_ID  WHERE ( m.CREATE_TIME > '2018-2-6' AND m.CREATE_TIME < '2018-2-6 23:59:59'  ) AND m.SENDER_ID IN () GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') 
+
+[ 2018-03-30T09:34:22+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT l.LINEN_ID,l.LINEN_NAME,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') as DATE,sum(s.LINEN_COUNT) as COUNT,m.SENDER_ID,m.RECEIVER_ID FROM SERVICE_T_RECEIPT_SUB s LEFT JOIN SERVICE_T_RECEIPT_MAIN AS m ON s.RECEIPT_MAIN_ID = m.RECEIPT_MAIN_ID RIGHT JOIN SERVICE_T_LINEN AS l ON l.LINEN_ID = s.LINEN_ID  WHERE ( m.CREATE_TIME > '2018-2-6' AND m.CREATE_TIME < '2018-2-6 23:59:59'  ) AND m.SENDER_ID IN (Array) GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') 
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT l.LINEN_ID,l.LINEN_NAME,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') as DATE,sum(s.LINEN_COUNT) as COUNT,m.SENDER_ID,m.RECEIVER_ID FROM SERVICE_T_RECEIPT_SUB s LEFT JOIN SERVICE_T_RECEIPT_MAIN AS m ON s.RECEIPT_MAIN_ID = m.RECEIPT_MAIN_ID RIGHT JOIN SERVICE_T_LINEN AS l ON l.LINEN_ID = s.LINEN_ID  WHERE ( m.CREATE_TIME > '2018-2-6' AND m.CREATE_TIME < '2018-2-6 23:59:59'  ) AND m.SENDER_ID IN (Array) GROUP BY l.LINEN_ID,DATE_FORMAT(m.CREATE_TIME,'%Y-%m-%d') 
+
+[ 2018-03-30T09:35:38+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-03-30T09:35:40+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2018-03-30T09:35:59+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-03-30T09:36:18+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-03-30T09:37:36+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-03-30T09:37:37+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-03-30T09:37:58+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2018-03-30T09:38:19+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-03-30T09:38:40+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-03-30T09:39:01+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-03-30T09:39:03+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-03-30T09:39:23+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-03-30T09:39:28+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-03-30T09:39:37+08:00 ] 127.0.0.1 /index.php/Home/Order/day_sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-03-30T09:39:44+08:00 ] 127.0.0.1 /index.php/Home/Order/day_choose_linen?type=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-03-30T09:39:46+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-03-30T09:39:47+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-03-30T09:39:51+08:00 ] 127.0.0.1 /index.php/Home/Order/day_detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-03-30T09:42:36+08:00 ] 127.0.0.1 /index.php/Home/Order/day_detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-03-30T09:42:41+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_linen?type=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-03-30T09:42:42+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-03-30T09:42:44+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-03-30T09:42:53+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-03-30T09:43:07+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-1-29/end_time/2018-2-15/type/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-03-30T09:45:10+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-03-30T09:45:22+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-1-29/end_time/2018-2-15/type/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2018-03-30T09:46:02+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-03-30T09:46:05+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_choose_linen?type=sender
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2018-03-30T09:46:07+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-03-30T09:46:08+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2018-03-30T09:46:15+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-03-30T09:46:52+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-03-30T09:47:40+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-03-30T09:47:49+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-1-29/end_time/2018-2-15/type/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-03-30T09:48:12+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-03-30T09:48:24+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-03-30T09:48:25+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-03-30T09:48:40+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-03-30T09:48:51+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-1-29/end_time/2018-2-15/type/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-03-30T09:58:01+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-03-30T09:58:07+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_linen?type=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2018-03-30T09:58:09+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-03-30T09:58:11+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2018-03-30T09:58:16+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-03-30T09:58:19+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+
+[ 2018-03-30T09:59:59+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2018-03-30T10:00:11+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-03-30T10:00:44+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2018-03-30T10:00:49+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-03-30T10:03:33+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-03-30T10:03:35+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2018-03-30T10:03:37+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-03-30T10:03:42+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-03-30T10:03:44+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-03-30T10:03:46+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-03-30T10:03:47+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-03-30T10:03:49+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-03-30T10:03:51+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2018-03-30T10:04:02+08:00 ] 127.0.0.1 /index.php/Home/Order/clean_order?customer_id=13&department_id=0,23,26,29,24,21,27,22,33,34,&storehouse_id=28,31,32,&washing_id=12&start_time=2018-1-28&end_time=2018-2-17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-03-30T10:07:52+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+
+[ 2018-03-30T10:08:28+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_choose_linen?type=sender
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-03-30T10:08:30+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-03-30T10:08:31+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-03-30T10:12:50+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-03-30T10:14:44+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-03-30T10:14:50+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2018-03-30T10:14:53+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2018-03-30T10:14:54+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-03-30T10:14:56+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-03-30T10:15:00+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-03-30T10:15:01+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-03-30T10:15:29+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-03-30T10:15:31+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-03-30T10:15:33+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-03-30T10:15:36+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-03-30T10:15:40+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-03-30T10:15:46+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-03-30T10:15:53+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=13&department_id=0,23,26,29,24,21,27,22,33,34,&storehouse_id=28,31,32,&washing_id=12&start_time=2018-3-21&end_time=2018-3-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-03-30T10:17:26+08:00 ] 127.0.0.1 /index.php/Home/Order/detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-03-30T10:18:04+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-1-29/end_time/2018-2-16/type/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-03-30T13:57:05+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012627s ]
+
+[ 2018-03-30T13:57:08+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2018-03-30T13:57:09+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-03-30T13:57:14+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-3-20&end_time=2018-4-23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-03-30T14:05:51+08:00 ] 127.0.0.1 /index.php/Home/Order/recriver_choose_linen?type=recriver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-03-30T14:05:53+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-03-30T14:05:55+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2018-03-30T14:06:00+08:00 ] 127.0.0.1 /index.php/Home/Order/recriver_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-03-30T14:08:41+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-03-30T14:10:53+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2018-03-30T14:10:57+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2018-03-30T14:10:58+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-03-30T14:11:08+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-03-30T14:15:03+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-03-30T14:16:54+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-03-30T14:17:19+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-03-30T14:18:40+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-03-30T14:19:32+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2018-03-30T14:23:04+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-03-30T14:23:18+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2018-03-30T14:23:20+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/storehouse_id/35%2C/washing_id/12/start_time/2018-1-29/end_time/2018-2-15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2018-03-30T14:23:54+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-03-30T14:23:58+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2018-03-30T14:24:00+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-03-30T14:24:06+08:00 ] 127.0.0.1 /index.php/Home/Order/clean_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2018-03-30T14:24:31+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_dirty?type=dirty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2018-03-30T14:24:34+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-03-30T14:24:36+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-03-30T14:24:42+08:00 ] 127.0.0.1 /index.php/Home/Order/dirty_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-03-30T14:25:53+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty?customer_id=&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-03-30T14:26:07+08:00 ] 127.0.0.1 /index.php/Home/Order/choose_clean?type=clean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-03-30T14:29:21+08:00 ] 127.0.0.1 /index.php/Home/Order/clean_order?customer_id=16&department_id=0,30,35,31,32,&storehouse_id=35,&washing_id=12&start_time=2018-1-29&end_time=2018-2-16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-03-30T14:29:22+08:00 ] 127.0.0.1 /index.php/Home/Order/export_dirty/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/storehouse_id/35%2C/washing_id/12/start_time/2018-1-29/end_time/2018-2-16/type/clean.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-03-30T14:29:54+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2018-03-30T14:29:55+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-03-30T14:35:04+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_choose_linen?type=sender
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-03-30T14:35:05+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2018-03-30T14:35:10+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-03-30T14:35:20+08:00 ] 127.0.0.1 /index.php/Home/Order/sender_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-1-29&end_time=2018-2-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-03-30T14:35:23+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-1-29/end_time/2018-2-10/type/sender.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-03-30T14:36:23+08:00 ] 127.0.0.1 /index.php/Home/Order/day_choose_linen?type=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-03-30T14:36:24+08:00 ] 127.0.0.1 /index.php/Home/Department/getdepartmentlist?customer_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-03-30T14:36:26+08:00 ] 127.0.0.1 /index.php/Home/Order/get_storehouse_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-03-30T14:36:32+08:00 ] 127.0.0.1 /index.php/Home/Order/day_detail_linen_month_order?customer_id=16&department_id=0,30,35,31,32,&start_time=2018-2-6&end_time=2018-2-6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-03-30T14:36:33+08:00 ] 127.0.0.1 /index.php/Home/order/exprort_order/customer_id/16/department_id/0%2C30%2C35%2C31%2C32%2C/start_time/2018-2-6/end_time/2018-2-6/type/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-03-30T14:37:14+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-03-30T14:37:15+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/get_washinglist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-03-30T19:10:58+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: Undefined class constant 'PDO::SQLSRV_ATTR_ENCODING'
+
+[ 2018-03-30T19:18:37+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+
+[ 2018-03-30T19:18:41+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2018-03-30T19:18:43+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-03-30T19:18:44+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-03-30T19:18:44+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2018-03-30T19:18:45+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2018-03-30T19:18:45+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-03-30T19:18:45+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-03-30T19:20:24+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:20:24+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:20:25+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:21:48+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:21:49+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:21:50+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:24:54+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:24:54+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:24:57+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:26:58+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-03-30T19:27:34+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-03-30T19:27:36+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-03-30T19:29:00+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2018-03-30T19:32:36+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:32:39+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft SQL Server 2012 Native Client ODBC Driver to communicate with SQL Server. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:34:36+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 207:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+ERR: 207:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+
+[ 2018-03-30T19:34:38+08:00 ] 127.0.0.1 /index.php/Home/NewProduct/new_product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 207:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+ERR: 207:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+
+[ 2018-03-30T19:34:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 207:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+ERR: 207:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+
+[ 2018-03-30T19:41:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-03-30T19:41:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-03-30T19:41:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-03-30T19:41:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-03-30T19:41:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-03-30T19:41:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-03-30T19:42:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:42:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:44:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:44:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:47:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:47:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:49:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:59:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:59:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:59:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T19:59:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:08:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:08:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:09:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:10:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020902s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:10:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:10:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: SQLSTATE[IMSSP]: This extension requires the Microsoft ODBC Driver 11 for SQL Server to communicate with SQL Server. Access the following URL to download the ODBC Driver 11 for SQL Server for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+
+[ 2018-03-30T20:16:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 207:[Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+ERR: 207:[Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'parent_id'.
+ [ SQL语句 ] : SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  FUNCTION_ID AS id,[parent_id] FROM [SERVICE_T_FUNCTION] ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1)
+
+[ 2018-03-30T20:29:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2018-03-30T20:29:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2018-03-30T20:30:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2018-03-30T20:30:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2018-03-30T20:31:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2018-03-30T20:31:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2018-03-30T20:31:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+

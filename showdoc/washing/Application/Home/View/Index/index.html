@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <include file="Public:meta"/>
+
+    <!--私有样式-->
+    <link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+    <style>
+        .brand{
+            width: 16%;
+            float: left;
+            padding: 5px;
+        }
+
+        .brand_logo img{
+            width: 62%;
+        }
+
+        .brand .brand_child ul li{
+            padding: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:ellipsis
+        }
+        @media screen and (max-width:800px) {
+            .brand {
+                width: 33%;
+            }
+            .brand .brand_child ul li{
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (min-width:800px) {
+            .brand {
+                width: 25%;
+            }
+        }
+        @media screen and (min-width:1000px) {
+            .brand {
+                width: 20%;
+            }
+        }
+
+        @media screen and (min-width:1100px) {
+            .brand {
+                width: 16.5%;
+            }
+        }
+
+        @media screen and (min-width:1200px) {
+            .brand {
+                width: 14%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+
+    <!--头部-->
+    <include file="Public:layui-header"/>
+
+    <!--左侧边栏-->
+    <include file="Public:layui-side"/>
+
+    <!--主体-->
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div class="brand">
+            <a href="https://www.starbucks.com.cn/" target="_blank"><div class="brand_logo" title="翠园"><img src="__PUBLIC__/static/images/brand/7.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>新界荃灣綠楊坊</li></a>
+                    <a href="javascript:;"><li>九龍灣德福廣場</li></a>
+                    <a href="javascript:;"><li>香港中區大會堂</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="https://www.starbucks.com.cn/" target="_blank"><div class="brand_logo" title="星巴克"><img src="__PUBLIC__/static/images/brand/1.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>北京金街咖啡店</li></a></a>
+                    <a href="javascript:;"><li>北京东方广场西店</li></a>
+                    <a href="javascript:;"><li>北京王府井第二咖啡店</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="https://www.genkisushi.com.hk/" target="_blank"><div class="brand_logo" title="元气寿司"><img src="__PUBLIC__/static/images/brand/2.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>士美菲路</li></a>
+                    <a href="javascript:;"><li>信德元気寿司高速線</li></a>
+                    <a href="javascript:;"><li>遠東金融中心</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="https://www.sen-ryo.com.hk/" target="_blank"><div class="brand_logo" title="千两"><img src="__PUBLIC__/static/images/brand/3.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>希慎廣場</li></a>
+                    <a href="javascript:;"><li>海濱大廈</li></a>
+                    <a href="javascript:;"><li>世紀廣場</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="https://www.aromebakery.com.hk/" target="_blank"><div class="brand_logo" title="东海堂"><img src="__PUBLIC__/static/images/brand/4.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>西環盛貿飯店</li></a>
+                    <a href="javascript:;"><li>魚則魚涌分店</li></a>
+                    <a href="javascript:;"><li>鯉景灣分店</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="http://www.dondonya.com.hk/" target="_blank"><div class="brand_logo" title="丼丼屋"><img src="__PUBLIC__/static/images/brand/5.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>荷里活</li></a>
+                    <a href="javascript:;"><li>樂富廣場</li></a>
+                    <a href="javascript:;"><li>青衣城</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="http://www.maxims.com.hk/tc/main.asp" target="_blank"><div class="brand_logo" title="鱼尚"><img src="__PUBLIC__/static/images/brand/6.jpg"/></div></a>
+            <div class="brand_child">
+                <ul>
+                    <a href="javascript:;"><li>大圍富嘉花園</li></a>
+                    <a href="javascript:;"><li>香港仔添喜大廈</li></a>
+                    <a href="javascript:;"><li>上水中心</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <!--底部-->
+        <include file="Public:layui-footer"/>
+    </div>
+</div>
+</body>
+<!--每个页面都必须引入-->
+<include file="Public:script"/>
+<!--按每个页面引入-->
+<script src="__PUBLIC__/static/js/index.js"></script>
+</html>
